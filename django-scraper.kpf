@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="b0689fda-33b0-054a-b170-196945463b22" kpf_version="4" name="django-scraper.kpf">
+<preference-set idref="b0689fda-33b0-054a-b170-196945463b22">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>
