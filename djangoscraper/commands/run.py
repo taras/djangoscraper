@@ -8,7 +8,7 @@ from scrapy.stats import signals
 from datetime import datetime, timedelta, date
 import scraper.utils.timetext as timetext
 import subprocess, os, time
-from scraper.models import Task
+from djangoscraper.models import Task
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy.core import signals
 import signal

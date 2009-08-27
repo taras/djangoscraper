@@ -1,5 +1,5 @@
 from django.db import models
-from fields.pickled import PickledObjectField
+from djangoscraper.fields.pickled import PickledObjectField
 
 class Task(models.Model):
     domain = models.CharField(max_length=255)

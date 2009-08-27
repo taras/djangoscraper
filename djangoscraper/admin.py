@@ -1,5 +1,5 @@
 from django.contrib import admin
-from models import Task
+from djangoscraper.models import Task
 
 class TaskAdmin(admin.ModelAdmin):
     list_display = ('domain', 'name', 'priority', 'completed', 'locked', 'created')
