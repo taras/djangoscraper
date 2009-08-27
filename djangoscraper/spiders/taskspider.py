@@ -2,7 +2,7 @@ from scrapy.contrib.spiders.crawl import CrawlSpider
 from scrapy import log
 from scrapy.http import Request
 from scrapy.utils.misc import arg_to_iter
-from scraper.models import Task
+from djangoscraper.models import Task
 from scrapy.utils.misc import load_object
 from scrapy.conf import settings
 
