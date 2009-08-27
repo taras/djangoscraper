@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+django_scraper.egg-info/PKG-INFO
+django_scraper.egg-info/SOURCES.txt
+django_scraper.egg-info/dependency_links.txt
+django_scraper.egg-info/entry_points.txt
+django_scraper.egg-info/not-zip-safe
+django_scraper.egg-info/top_level.txt
+djangoscraper/__init__.py

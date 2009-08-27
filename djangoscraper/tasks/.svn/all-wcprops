@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/vacation/!svn/ver/23/src/scraper/tasks
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vacation/!svn/ver/13/src/scraper/tasks/__init__.py
+END
+task.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/vacation/!svn/ver/17/src/scraper/tasks/task.py
+END
+tripadvisor.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vacation/!svn/ver/23/src/scraper/tasks/tripadvisor.py
+END
+tripcentral.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vacation/!svn/ver/23/src/scraper/tasks/tripcentral.py
+END

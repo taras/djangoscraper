@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: django-scraper
+Version: 0.1dev
+Summary: Django Scraper app integrates scrapy and django to allow task based scraping.
+Home-page: http://taras.cc
+Author: Taras Mankovski
+Author-email: tarasm@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: django scrapy
+Platform: UNKNOWN

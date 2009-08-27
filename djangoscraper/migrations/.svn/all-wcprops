@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/vacation/!svn/ver/25/src/scraper/migrations
+END
+0006_add_start_urls_fixed_order.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vacation/!svn/ver/16/src/scraper/migrations/0006_add_start_urls_fixed_order.py
+END
+0001_initial.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vacation/!svn/ver/13/src/scraper/migrations/0001_initial.py
+END
+0002_initial.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vacation/!svn/ver/13/src/scraper/migrations/0002_initial.py
+END
+0006_add_start_urls_fixed_order.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0006_add_start_urls_fixed_order.pyc
+END
+0001_initial.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0001_initial.pyc
+END
+0002_initial.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0002_initial.pyc
+END
+0005_renamed_callback_to_name.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/vacation/!svn/ver/13/src/scraper/migrations/0005_renamed_callback_to_name.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vacation/!svn/ver/13/src/scraper/migrations/__init__.py
+END
+0005_renamed_callback_to_name.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0005_renamed_callback_to_name.pyc
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vacation/!svn/ver/17/src/scraper/migrations/__init__.pyc
+END
+0009_removed_result_and_errors_fields.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/vacation/!svn/ver/25/src/scraper/migrations/0009_removed_result_and_errors_fields.py
+END
+0004_added_default_to_priority.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vacation/!svn/ver/13/src/scraper/migrations/0004_added_default_to_priority.py
+END
+0008_added_start_finish_fields.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vacation/!svn/ver/20/src/scraper/migrations/0008_added_start_finish_fields.py
+END
+0003_added_domain_and_priority.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vacation/!svn/ver/13/src/scraper/migrations/0003_added_domain_and_priority.py
+END
+0004_added_default_to_priority.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0004_added_default_to_priority.pyc
+END
+0007_adadded_blank_to_text_fields.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/vacation/!svn/ver/16/src/scraper/migrations/0007_adadded_blank_to_text_fields.py
+END
+0003_added_domain_and_priority.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0003_added_domain_and_priority.pyc
+END
+0007_adadded_blank_to_text_fields.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/vacation/!svn/ver/17/src/scraper/migrations/0007_adadded_blank_to_text_fields.pyc
+END
