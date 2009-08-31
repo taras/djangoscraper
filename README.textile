@@ -46,50 +46,38 @@ h4. New Django Install
     # Add 'djangoscraper' to INSTALLED_APPS in django's settings.py
     # Add 'djangoscraper.commands' to COMMANDS_MODULE in scrapy's settings.py
     # To access scrapy from django, add the following code somewhere in django's settings.py
-        <pre>
-            <code>
-            os.environ.setdefault('SCRAPYSETTINGS_MODULE', 'scraper.settings')
-            </code>
-        </pre>
+        <pre><code>
+        os.environ.setdefault('SCRAPYSETTINGS_MODULE', 'scraper.settings')
+        </code></pre>
     
     # To access django from scrapy, add the following code somewhere in scrapy's settings.py
-        <pre>
-            <code>
+        <pre><code>
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
-            </code>
-        </pre>
+        </code></pre>
 
 h4. Add djangoscraper to existing scrapy project
     
     # Create django project
-        <pre>
-            <code>
+        <pre><code>
         django-admin startproject {django_project_name}
-            </code>
-        </pre>    
+        </code></pre>    
 
     # Move scraper into django project
-        <pre>
-            <code>
+        <pre><code>
         mv {scraper_project_dir}/* {django_project_name}
-            </code>
-        </pre>
+        </code></pre>
     
     # Add 'djangoscraper' to INSTALLED_APPS in django's settings.py
     # Add 'djangoscraper.commands' to COMMANDS_MODULE in scrapy's settings.py
     # To access scrapy from django, add the following code somewhere in django's settings.py
-        <pre>
-            <code>
-            os.environ.setdefault('SCRAPYSETTINGS_MODULE', '{scraper_project_dir}.settings')
-            </code>
-        </pre>
+        <pre><code>
+        os.environ.setdefault('SCRAPYSETTINGS_MODULE', '{scraper_project_dir}.settings')
+        </code></pre>
     
     # To access django from scrapy, add the following code somewhere in scrapy's settings.py
-        <pre>
-            <code>
+        <pre><code>
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
-            </code>
-        </pre>
+        </code></pre>
 
 h3. Configuration
 
