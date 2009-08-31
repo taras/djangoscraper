@@ -1,35 +1,27 @@
 h2. Django Scraper app - djangoscraper
 
 h3. Introduction
-Django Scraper app is an integration of Django Web Framework and Scrapy Web
-Crawling Framework.  It was created to simplify scraping of large websites that
-contain a variety of data that needs to be extracted in different ways. 
+p.Django Scraper app is an integration of Django Web Framework and Scrapy Web Crawling Framework. It was created to simplify
+scraping of large websites that contain a variety of data that needs to be extracted in different ways. 
 
-As I began working with scrapy I found it difficult to manage the complexity of
-the website that I was trying to scrape, because scrapy architecture requires
-you to have 1 spider per domain. This contraint made it difficult for me to
-structure the code in a clear and modular way because the code for all of the
-scraping tasks had to be in the same spider.
+p.As I began working with scrapy I found it difficult to manage the complexity of the website that I was trying to scrape,
+because scrapy architecture requires you to have 1 spider per domain. This contraint made it difficult for me to structure the
+code in a clear and modular way because the code for all of the scraping tasks had to be in the same spider.
 
-I prefer to think of spiders as having tasks. This makes it easier for me to
-work on specific spider functionality without involving all of the other spider
-tasks.
+p. I prefer to think of spiders as having tasks. This makes it easier for me to work on specific spider functionality without
+involving all of the other spider tasks.
 
-To work on this way, I introduced a concept of a spider Task. A spider task is
-something that a spider has to do and it produces either items or other spider
-tasks.
+p. To work on this way, I introduced a concept of a spider Task. A spider task is something that a spider has to do and it produces
+either items or other spider tasks.
 
-Tasks are stored in Django database and can be manipulated using Django admin 
-interface. **Django admin** allows you to **add new tasks**, **view status of
-tasks**, **filter tasks**.
+p. Tasks are stored in Django database and can be manipulated using Django admin interface. **Django admin** allows you to
+**add new tasks**, **view status of tasks**, **filter tasks**.
 
-Tasks have similar properties to scrapy Requests, except they take multiple urls
-using the __start_urls__ property.
+p. Tasks have similar properties to scrapy Requests, except they take multiple urls using the __start_urls__ property.
 
 h3. Installation
-Django Scraper App functions like a standard Django Application. If you follow
-a non django code organization then you would install djangoscraper as you
-would any other django application. 
+p. Django Scraper App functions like a standard Django Application. If you follow a non django code organization then you would
+install djangoscraper as you would any other django application. 
 
 h4. New Django Install
 
