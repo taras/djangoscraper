@@ -34,14 +34,12 @@ would any other django application.
 h4. New Django Install
 
     # Create project structure
-        <pre>
-            <code>
+        <pre><code>
         django-admin startproject example
         scrapy-ctl.py startproject scraper
         mv scraper/* example
         rm -R scraper
-            </code>
-        </pre>
+        </code></pre>
     
     # Add 'djangoscraper' to INSTALLED_APPS in django's settings.py
     # Add 'djangoscraper.commands' to COMMANDS_MODULE in scrapy's settings.py
