@@ -4,13 +4,20 @@ from scrapy.core.engine import scrapyengine
 from scrapy.spider import spiders
 from scrapy.http import Request
 from scrapy import log
-from scrapy.stats import signals
 from datetime import datetime, timedelta, date
 import djangoscraper.utils.timetext as timetext
 from djangoscraper.models import Task
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy.core import signals
 import subprocess, os, time, signal
+from scrapy.conf import settings
+
+if settings.get('MEMDEBUG_WITH_GUPPY', False):
+    try:
+        import guppy
+    except ImportError:
+        guppy = False
+        log.msg('Could not import Guppy module.', level=log.ERROR)
 
 interupted = False
 
@@ -52,6 +59,9 @@ class Command(ScrapyCommand):
             self.execute(args, opts)
 
     def _loop(self, args, opts):
+        if settings.get('MEMDEBUG_WITH_GUPPY', False) and guppy:
+            heapy = guppy.hpy()
+            
         task = Task().next(locked=0, completed=0)
         if task:
             task.lock()
@@ -69,6 +79,9 @@ class Command(ScrapyCommand):
             timetext.LANG = 'en'
             total = task.finish - task.start
             log.msg('Finished: %s(%s) in %s'%(task.name, task.id, timetext.stringify(total)), level=log.INFO, domain=task.domain)
+            if settings.get('MEMDEBUG_WITH_GUPPY', False) and guppy:
+                log.msg(heapy.heap(), level=log.DEBUG)
+                heapy.setref()
         else:
             time.sleep(30)
     
