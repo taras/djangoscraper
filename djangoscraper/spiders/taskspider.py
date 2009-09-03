@@ -28,7 +28,11 @@ class TaskSpider(CrawlSpider):
         if settings.get('TASKS'):
             available_tasks = settings.get('TASKS')
             if available_tasks.has_key(task.name):
-                configuration = load_object(available_tasks[task.name])
+                try:
+                    configuration = load_object(available_tasks[task.name])
+                except Exception, (ErrorMessage):
+                    log.msg('Could not load configuration for task %s' % task.name, level=log.ERROR)
+                    log.msg(ErrorMessage, level=log.DEBUG, domain='tripcentral.ca')
                 configuration = configuration(task, self)
                 if hasattr(configuration, 'start_urls'):
                     setattr(self, 'start_urls', configuration.start_urls)
