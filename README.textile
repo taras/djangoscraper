@@ -1,3 +1,8 @@
+h2. Django Scraper is obsolete
+Django Scraper was written for scrapy 0.7. Since then, scrapy 0.8 came out that had many improvement, many of these improvements make Django Scraper architecturally obsolete. I abandoned this project a while ago.
+
+if you're looking for this kind of functionality, I would recommend that you look into http://ask.github.com/celery/getting-started/introduction.html in combination with latest version of scrapy. This would give you a scallable implementation of task based scraping.
+
 h2. Django Scraper app - djangoscraper
 
 h3. Introduction
